@@ -4,33 +4,41 @@ import Button from '@mui/material/Button';
 
 const Footer = () => {
     return (
-        <div style={{display:"flex",flexDirection:"row"}}>
-            <div style={{display:"flex", flexDirection:"column"}}>
-                <h1>CAR Rental</h1>
-                <h4>We offers a big range of vehicles for <br></br>
-                all your driving needs. We have the <br></br>
-                perfect car to meet your needs.</h4>
-                <h3> (123) -456-789</h3>carrental@gmail.com
-                <h3> carrental@gmail.com</h3>
+        <div style={{display:"flex",flexDirection:"row", margin:"5%" }}>
+            <div style={{display:"flex", flexDirection:"column", width:"25%"}}>
+                <p>
+                    <p style={{fontSize:"25px",fontWeight:"bold"}}>CAR Rental</p>
+                    <p style={{color:"grey", marginBottom:"5%"}}>We offers a big range of vehicles for <br></br>
+                    all your driving needs. We have the <br></br>
+                    perfect car to meet your needs.</p>
+                    <h3 style={{fontSize:"15px",fontWeight:"bold", marginTop:"15%"}}> (123) -456-789</h3>
+                    <h3 style={{fontSize:"15px",fontWeight:"bold"}}> carrental@gmail.com</h3>
+                </p>
             </div>
-            <div style={{display:"flex", flexDirection:"column"}}>
-                <h1>Company</h1>
-                <h3>New York</h3>
-                <h3>Careers</h3>
-                <h3>Blog</h3>
-                <h3>How we work</h3>
+            <div style={{display:"flex", flexDirection:"column", width:"25%", marginLeft:"5%"}}>
+                <p>
+                    <p style={{fontSize:"25px",fontWeight:"bold"}}>Company</p>
+                    <p style={{fontSize:"17px",fontWeight:"bold"}}>New York</p>
+                    <p style={{fontSize:"17px",fontWeight:"bold"}}>Careers</p>
+                    <p style={{fontSize:"17px",fontWeight:"bold"}}>Blog</p>
+                    <p style={{fontSize:"17px",fontWeight:"bold"}}>How we work</p>
+                </p>
             </div>
-            <div style={{display:"flex", flexDirection:"column"}}>
-                <h1>WORKING HOURS</h1>
-                <h3>Mon - Fri: 9:00AM - 9:00PM</h3>
-                <h3>Sat: 9:00AM - 19:00PM</h3>
-                <h3>Sun: Closed</h3>
+            <div style={{display:"flex", flexDirection:"column", width:"25%"}}>
+                <p>
+                    <p style={{fontSize:"25px",fontWeight:"bold"}}>WORKING HOURS</p>
+                    <p style={{fontWeight:"bold"}}>Mon - Fri: 9:00AM - 9:00PM</p>
+                    <p style={{fontWeight:"bold"}}>Sat: 9:00AM - 19:00PM</p>
+                    <p style={{fontWeight:"bold"}}>Sun: Closed</p>
+                </p>
             </div>
-            <div style={{display:"flex", flexDirection:"column"}}>
-                <h1>SUBSCRIPTION</h1>
-                <h3>Subscribe your Email address for <br></br> latest news & updates.</h3>
-                <TextField id="outlined-basic" label="Enter Email Address" variant="outlined" />
-                <Button variant="contained" size="large" style={{marginRight:"10px"}}>Submit</Button>
+            <div style={{display:"flex", flexDirection:"column", width:"25%", marginLeft:"5%"}}>
+                <p>
+                    <p  style={{fontSize:"25px",fontWeight:"bold"}}>SUBSCRIPTION</p>
+                    <p  style={{fontWeight:"bold"}}>Subscribe your Email address for <br></br> latest news & updates.</p>
+                    <TextField id="outlined-basic" label="Enter Email Address" variant="outlined" style={{margin:"2%"}} /><br></br>
+                    <Button variant="contained" size="large" style={{marginRight:"10px", margin:"2%"}}>Submit</Button>
+                </p>
             </div>
         </div>
     )

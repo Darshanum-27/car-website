@@ -4,6 +4,7 @@ import Footer from './Footer'
 import TextField from '@mui/material/TextField';
 import { TextareaAutosize } from '@mui/base/TextareaAutosize';
 import Button from '@mui/material/Button';
+import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
 
 const Contact = () => {
     return (
@@ -34,8 +35,9 @@ const Contact = () => {
                     <Button variant="contained" size="large" style={{marginRight:"10px"}}>Book Ride</Button>
                 </div>
             </div>
-            <div>
-                <p> Book a car by getting in touch with us <span>Book a car by getting in touch with us(123)456-7869</span></p>
+            <div style={{backgroundColor:"black"}}>
+                <p style={{color:"white", fontSize:"30px", paddingTop:"7%", paddingBottom:"7%", textAlign:"center",
+                fontWeight:"bold"}}> Book a car by getting in touch with us   <PhoneForwardedIcon /><span style={{color:"orange"}}>  (123)456-7869</span></p>
             </div>
             <div>
                 <Footer></Footer>
