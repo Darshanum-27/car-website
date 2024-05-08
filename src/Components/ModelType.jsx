@@ -8,6 +8,7 @@ import Car3 from '../Assets/car3.png'
 import Car4 from '../Assets/car4.png'
 import Car5 from '../Assets/car5.png'
 import Car6 from '../Assets/car6.png'
+import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
 
 const ModelType = () => {
     return (
@@ -27,8 +28,9 @@ const ModelType = () => {
                     <Card3 img={Car6} name={"VW Passat"} value={"$25"} company={"CC"} rating={"4/5"} drive={"Manual"} fuel={"Diesel"} />
                 </div>
             </div>
-            <div>
-                <p> Book a car by getting in touch with us <span>Book a car by getting in touch with us(123)456-7869</span></p>
+            <div style={{backgroundColor:"black"}}>
+                <p style={{color:"white", fontSize:"30px", paddingTop:"7%", paddingBottom:"7%", textAlign:"center",
+                fontWeight:"bold"}}> Book a car by getting in touch with us   <PhoneForwardedIcon /><span style={{color:"orange"}}>  (123)456-7869</span></p>
             </div>
             <div>
                 <Footer></Footer>
