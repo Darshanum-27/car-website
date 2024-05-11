@@ -13,19 +13,33 @@ import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
 const ModelType = () => {
     return (
         <div>
-            <Tabbar></Tabbar>
-            <h1>Team</h1>
-            <h3>Home/Our Team</h3>
-            <div style={{display:"flex", flexDirection:"row"}}>
-                <div style={{display:"flex", flexDirection:"column"}}>
-                    <Card3 img={Car1} name={"Audi A1"} value={"$45"} company={"Audi"} rating={"4/5"} drive={"Manual"} fuel={"Diesel"} />
-                    <Card3 img={Car2} name={"Golf 6"} value={"$37"} company={"VW"} rating={"4/5"} drive={"Manual"} fuel={"Diesel"} />
-                    <Card3 img={Car3} name={"Toyota"} value={"$30"} company={"Camry"} rating={"4/5"} drive={"Manual"} fuel={"Diesel"} />
+            <div style={{backgroundImage:""}}>
+                <Tabbar></Tabbar>
+                <h1>Team</h1>
+                <h3>Home/Our Team</h3>
+            </div>
+            <div style={{margin: "auto", width: "50%"}}>
+                <div style={{display:"flex",flexDirection:"row"}}>
+                    <div style={{margin:"2%"}}>
+                        <Card3 img={Car1} name={"Audi A1"} value={"$45"} company={"Audi"} rating={"4/5"} drive={"Manual"} fuel={"Diesel"} />
+                    </div>
+                    <div style={{margin:"2%"}}>
+                        <Card3 img={Car2} name={"Golf 6"} value={"$37"} company={"VW"} rating={"4/5"} drive={"Manual"} fuel={"Diesel"} />
+                    </div>
+                    <div style={{margin:"2%"}}>
+                        <Card3 img={Car3} name={"Toyota"} value={"$30"} company={"Camry"} rating={"4/5"} drive={"Manual"} fuel={"Diesel"}/>
+                    </div>
                 </div>
-                <div style={{display:"flex", flexDirection:"column"}}>
-                    <Card3 img={Car4} name={"BMW 320"} value={"$35"} company={"ModernLine"} rating={"4/5"} drive={"Manual"} fuel={"Diesel"} />
-                    <Card3 img={Car5} name={"Mercedes"} value={"$50"} company={"Benz"} rating={"4/5"} drive={"Manual"} fuel={"Diesel"} />
-                    <Card3 img={Car6} name={"VW Passat"} value={"$25"} company={"CC"} rating={"4/5"} drive={"Manual"} fuel={"Diesel"} />
+                <div style={{display:"flex",flexDirection:"row"}}>
+                    <div style={{margin:"2%"}}>
+                        <Card3 img={Car4} name={"BMW 320"} value={"$35"} company={"ModernLine"} rating={"4/5"} drive={"Manual"} fuel={"Diesel"} />
+                    </div>
+                    <div style={{margin:"2%"}}>
+                        <Card3 img={Car5} name={"Mercedes"} value={"$50"} company={"Benz"} rating={"4/5"} drive={"Manual"} fuel={"Diesel"} />
+                    </div>
+                    <div style={{margin:"2%"}}>
+                        <Card3 img={Car6} name={"VW Passat"} value={"$25"} company={"CC"} rating={"4/5"} drive={"Manual"} fuel={"Diesel"} />
+                    </div>
                 </div>
             </div>
             <div style={{backgroundColor:"black"}}>

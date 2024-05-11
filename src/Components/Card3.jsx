@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 
 export default function Card3(props) {
   return (
-    <Card sx={{ maxWidth: 400 }}>
+    <Card sx={{ maxWidth: 250 }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -17,8 +17,11 @@ export default function Card3(props) {
           alt="green iguana"
         />
         <CardContent>
-          <Typography gutterBottom variant="h3" component="div">
-            {props.name}              {props.value}
+          <Typography gutterBottom variant="h5" component="div">
+            <div style={{flex:"display", flexDirection:"row"}}>
+            {props.name}             
+            </div>
+            {props.value} 
           </Typography>
           <Typography variant="body2" color="text.secondary">
             {props.company}       {props.rating}<br></br>
