@@ -9,14 +9,19 @@ import Car4 from '../Assets/car4.png'
 import Car5 from '../Assets/car5.png'
 import Car6 from '../Assets/car6.png'
 import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
+import backgroundImage1 from '../Assets/backgroundImage1.jpeg';
 
 const ModelType = () => {
     return (
         <div>
-            <div style={{backgroundImage:""}}>
-                <Tabbar></Tabbar>
-                <h1>Team</h1>
-                <h3>Home/Our Team</h3>
+            <div style={{ backgroundImage: `url(${backgroundImage1})`, marginBottom:"5%"}}>
+                <div>
+                    <Tabbar></Tabbar>
+                </div>
+                <div style={{padding:"5%"}}>
+                    <h1>Team</h1>
+                    <h3>Home/Our Team</h3>
+                </div>
             </div>
             <div style={{margin: "auto", width: "50%"}}>
                 <div style={{display:"flex",flexDirection:"row"}}>

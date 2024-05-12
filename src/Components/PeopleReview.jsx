@@ -2,7 +2,7 @@ import React from 'react'
 import Card2 from './Card2'
 const PeopleReview = () => {
     return (
-        <div style={{backgroundColor:"grey"}}>
+        <div style={{backgroundColor:"rgb(235, 239, 245)"}}>
             <div style={{display:"flex",flexDirection:"column"}}>
                 <p style={{textAlign:"center"}}>Reviewed by People<br></br>
                     <span>Client's Testimonials</span><br></br>

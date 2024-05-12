@@ -1,12 +1,12 @@
 import React from 'react'
 import polocar from '../Assets/polocar.png'
-import Button from '@mui/material/Button';
+import Button from '@mui/material/Button'
 
 const BookRide = () => {
     return (
-        <div style={{marginLeft:"5%", marginTop:"10%"}}>
+        <div style={{marginLeft:"5%", marginTop:"15%"}}>
             <div style={{display: "flex", flexDirection: "row"}}>
-                <div style={{display: "flex", flexDirection: "column"}}>
+                <div style={{display: "flex", flexDirection: "column", width:"50%"}}>
                     <span style={{fontWeight:"bold",color:"black"}}>Plan your trip now</span><br></br>
                     <span style={{fontWeight:"bold",color:"black",fontSize:"55px"}}>Save big with our<b></b></span>
                     <span style={{fontWeight:"bold",color:"black",fontSize:"55px"}}>car rental</span><br></br>
@@ -17,7 +17,7 @@ const BookRide = () => {
                         <Button variant="contained" size="large" style={{marginLeft:"20px"}}>Learn More</Button>
                     </div>
                 </div>
-                <div style={{display:"flex", flexDirection: "column"}}>
+                <div style={{display:"flex", flexDirection: "column", width:"50%"}}>
                     <img src={polocar} alt="" style={{ maxWidth: "700px" }}></img>
                 </div>
             </div>

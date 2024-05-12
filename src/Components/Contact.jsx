@@ -5,19 +5,26 @@ import TextField from '@mui/material/TextField';
 import { TextareaAutosize } from '@mui/base/TextareaAutosize';
 import Button from '@mui/material/Button';
 import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
+import backgroundImage1 from '../Assets/backgroundImage1.jpeg';
 
 const Contact = () => {
     return (
         <div>
-            <Tabbar></Tabbar>
-            <h1>Team</h1>
-            <h3>Home/Contact</h3>
+            <div style={{ backgroundImage: `url(${backgroundImage1})`,marginBottom:"5%"}}>
+                <div>
+                    <Tabbar></Tabbar>
+                </div>
+                <div>
+                    <h1>Team</h1>
+                    <h3>Home/Contact</h3>
+                </div>
+            </div>
             <div style={{display:"flex",flexDirection:"row"}}>
-                <div style={{display:"flex",flexDirection:"column"}}>
+                <div style={{display:"flex",flexDirection:"column", width:"50%", margin:"10%"}}>
                     <h1> Need additional<br></br>
                         information?
                     </h1>
-                    <h3>
+                    <h3 style={{color:"grey"}}>
                         A multifaceted professional skilled in multiple fields of <br></br> 
                         research, development as well as a learning specialist. <br></br> 
                         Over 15 years of experience.
@@ -25,18 +32,18 @@ const Contact = () => {
                     <h4> (123) 456 -789</h4>
                     <h4> carrental@gmail.com</h4>
                 </div>
-                <div style={{display:"flex",flexDirection:"column"}}    >
+                <div style={{display:"flex",flexDirection:"column", width:"50%", margin:"10%"}}    >
                     <h4>Full Name</h4><br></br>
                     <TextField id="outlined-basic" label="E.g: Joe Shmoe" variant="outlined" />
                     <h4>Email</h4><br></br>
                     <TextField id="outlined-basic" label="youremail@example.com" variant="outlined" />
                     <h4>Tell us about it</h4>
                     <TextareaAutosize maxRow={10} minRows={5}></TextareaAutosize>
-                    <Button variant="contained" size="large" style={{marginRight:"10px"}}>Book Ride</Button>
+                    <Button variant="contained" size="large" style={{ margin:"10%" }}>Book Ride</Button>
                 </div>
             </div>
             <div style={{backgroundColor:"black"}}>
-                <p style={{color:"white", fontSize:"30px", paddingTop:"7%", paddingBottom:"7%", textAlign:"center",
+                <p style={{color:"white", fontSize:"30px", paddingTop:"5%", paddingBottom:"7%", textAlign:"center",
                 fontWeight:"bold"}}> Book a car by getting in touch with us   <PhoneForwardedIcon /><span style={{color:"orange"}}>  (123)456-7869</span></p>
             </div>
             <div>

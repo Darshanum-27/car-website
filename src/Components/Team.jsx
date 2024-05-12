@@ -9,33 +9,40 @@ import Team4 from '../Assets/team4.png'
 import Team5 from '../Assets/team5.png'
 import Team6 from '../Assets/team6.png'
 import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
+import backgroundImage1 from '../Assets/backgroundImage1.jpeg';
 
 const Team = () => {
     return (
         <div>
-            <Tabbar></Tabbar>
-            <h1>Team</h1>
-            <h3>Home/Our Team</h3>
-            <div style={{display:"flex",flexDirection:"column"}}>
+            <div style={{ backgroundImage: `url(${backgroundImage1})`,marginBottom:"5%"}}>
+                <div>
+                    <Tabbar></Tabbar>
+                </div>
+                <div style={{padding:"5%"}}>
+                    <h1>Team</h1>
+                    <h3>Home/Our Team</h3>
+                </div>
+            </div>
+            <div style={{display:"flex",flexDirection:"column", margin: "auto", width: "50%"}}>
                 <div style={{display:"flex",flexDirection:"row"}}>
-                    <div style={{display:"flex",flexDirection:"column"}}>
+                    <div style={{display:"flex",flexDirection:"column",  margin:"2%"}}>
                         <Card1 img={Team1} name={"Luke Miller"} work ={"Salesman"}></Card1>
                     </div>
-                    <div style={{display:"flex",flexDirection:"column"}}>
+                    <div style={{display:"flex",flexDirection:"column", margin:"2%"}}>
                         <Card1 img={Team2} name={"Michael Diaz"} work ={"Business Owner"}></Card1>
                     </div>
-                    <div style={{display:"flex",flexDirection:"column"}}>
+                    <div style={{display:"flex",flexDirection:"column", margin:"2%"}}>
                         <Card1 img={Team3} name={"Briana Ross"} work ={"Photographer"}></Card1>
                     </div>
                 </div>
                 <div style={{display:"flex",flexDirection:"row"}}>
-                    <div style={{display:"flex",flexDirection:"column"}}>
+                    <div style={{display:"flex",flexDirection:"column", margin:"2%"}}>
                         <Card1 img={Team4} name={"Lauren Rivera"} work ={"Car Detailist"}></Card1>
                     </div>
-                    <div style={{display:"flex",flexDirection:"column"}}>
+                    <div style={{display:"flex",flexDirection:"column", margin:"2%"}}>
                         <Card1 img={Team5} name={"Martin Rizz"} work ={"Mechanic"}></Card1>
                     </div>
-                    <div style={{display:"flex",flexDirection:"column"}}>
+                    <div style={{display:"flex",flexDirection:"column", margin:"2%"}}>
                         <Card1 img={Team6} name={"Caitlyn Hunt"} work ={"Menager"}></Card1>
                     </div>
                 </div>

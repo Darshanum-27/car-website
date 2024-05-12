@@ -12,10 +12,14 @@ import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
 const About = () => {
     return (
         <div>
-            <div style={{ backgroundImage: "url(" + { backgroundImage1 } + ")", width: "100%",height: "400px",opacity:3}}>
-                <Tabbar></Tabbar>
-                <h1> About</h1>
-                <h3>Home/About</h3>
+            <div style={{ backgroundImage: `url(${backgroundImage1})`, marginBottom:"5%"}}>
+                <div>
+                    <Tabbar></Tabbar>
+                </div>
+                <div style={{padding:"5%"}}>
+                    <h1> About</h1>
+                    <h3>Home/About</h3>
+                </div>
             </div>
             <div style={{display:"flex", flexDirection:"row", margin:"5%"}}>
                 <div style={{display:"flex", flexDirection:"column", width:"50%"}}>
