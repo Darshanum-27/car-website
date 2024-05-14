@@ -13,7 +13,7 @@ import landingPageBackground from '../Assets/landingPageBackground.png';
 const Home = () => {
     return (
     <div>
-            <div style={{backgroundImage: `url(${landingPageBackground})`, backgroundSize:"auto", backgroundRepeat:"no-repeat", backgroundPositionX:"100%"}}>
+            <div style={{backgroundImage: `url(${landingPageBackground})`, backgroundSize:"auto", backgroundRepeat:"no-repeat", backgroundPositionX:"100%", backgroundPositionY:"100%"}}>
                 <Tabbar></Tabbar>
                 <BookRide></BookRide>
                 <Bookrideform></Bookrideform>
