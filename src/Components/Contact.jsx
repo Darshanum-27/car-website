@@ -6,6 +6,7 @@ import { TextareaAutosize } from '@mui/base/TextareaAutosize';
 import Button from '@mui/material/Button';
 import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
 import backgroundImage1 from '../Assets/backgroundImage1.jpeg';
+import contactBackground from '../Assets/contactBackground.jpeg'
 
 const Contact = () => {
     return (
@@ -19,12 +20,12 @@ const Contact = () => {
                     <h3>Home/Contact</h3>
                 </div>
             </div>
-            <div style={{display:"flex",flexDirection:"row"}}>
+            <div style={{display:"flex",flexDirection:"row", backgroundImage: `url(${contactBackground})`,backgroundSize:"auto", backgroundRepeat:"no-repeat",  }}>
                 <div style={{display:"flex",flexDirection:"column", width:"50%", margin:"10%"}}>
                     <h1> Need additional<br></br>
                         information?
                     </h1>
-                    <h3 style={{color:"grey"}}>
+                    <h3 style={{color:"grey", fontSize:"15px"}}>
                         A multifaceted professional skilled in multiple fields of <br></br> 
                         research, development as well as a learning specialist. <br></br> 
                         Over 15 years of experience.
