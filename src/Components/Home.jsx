@@ -9,16 +9,18 @@ import DownloadApp from './DownloadApp'
 import Footer from './Footer'
 import Tabbar from './Tabbar'
 import landingPageBackground from '../Assets/landingPageBackground.png';
+import VehicleModel from './VehicleModel'
 
 const Home = () => {
     return (
     <div>
-            <div style={{backgroundImage: `url(${landingPageBackground})`, backgroundSize:"auto", backgroundRepeat:"no-repeat", backgroundPositionX:"100%", backgroundPositionY:"100%"}}>
+            <div style={{backgroundImage: `url(${landingPageBackground})`, backgroundSize:"auto", backgroundRepeat:"no-repeat", backgroundPositionX:"100%"}}>
                 <Tabbar></Tabbar>
                 <BookRide></BookRide>
                 <Bookrideform></Bookrideform>
             </div>
             <PlanTrip></PlanTrip>
+            <VehicleModel></VehicleModel>
             <SaveBig></SaveBig>
             <WhyChooseUs></WhyChooseUs>
             <PeopleReview></PeopleReview>
