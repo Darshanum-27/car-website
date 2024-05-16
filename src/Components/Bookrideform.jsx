@@ -4,11 +4,10 @@ import PlaceIcon from '@mui/icons-material/Place';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
-import inputBackground from '../Assets/inputBackground.jpeg';
 
 const Bookrideform = () =>{
     return(
-        <div style={{margin:"5.5%", backgroundImage: `url(${inputBackground})`, paddingLeft:"2%"}}>
+        <div style={{margin:"5.5%", backgroundColor:"rgb(254, 254, 254)", paddingLeft:"2%"}}>
                 <h1 style={{ paddingTop:"4%"}}> Book a Car</h1>
                 <div style={{display: "flex", flexDirection: "row"}}>
                     <div>
@@ -16,7 +15,7 @@ const Bookrideform = () =>{
                             <CarRentalIcon style ={{marginTop:"20px"}}></CarRentalIcon>
                             <h3>Select Your Car Type </h3>
                         </div>
-                        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+                        <TextField id="outlined-basic" label="E.g: Joe Shmoe" variant="outlined" />
                     </div>
                     <div style={{marginLeft:"20%", marginBottom:"2%"}}>
                         <div style={{display: "flex", flexDirection: "row"}}>

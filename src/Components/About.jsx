@@ -26,8 +26,8 @@ const About = () => {
                     <img src={AboutCompany} alt="" style={{width:"70%", paddingLeft:"30%", paddingTop:"5%"}}></img>
                 </div>
                 <div style={{display:"flex", flexDirection:"column", width:"50%", paddingLeft:"5%"}}>
-                    <h3> About the Company</h3>
-                    <h1>You start the engine <br></br> 
+                    <h3 style={{fontFamily:"helvertica"}}> About the Company</h3>
+                    <h1 style={{fontFamily:"helvertica"}}>You start the engine <br></br> 
                     and your adventure <br></br>
                     begins</h1>
                     <p>Certain but she but shyness why cottage. Guy the put <br></br> 
@@ -36,14 +36,18 @@ const About = () => {
                     Motionless if no to affronting imprudence no precaution. <br></br> 
                     My indulged as disposal strongly attended.</p>
                     <div style={{display:"flex", flexDirection:"row"}}>
-                        <LocalShippingIcon></LocalShippingIcon>
-                        <div>
-                            <h1>20</h1><h1> Car Types</h1>
+                        <div style={{display:"flex", flexDirection:"column", marginTop:"3%",marginRight:"3%",marginBottom:"3%"}}>
+                            <LocalShippingIcon></LocalShippingIcon>
+                            <h3>20   Car Types</h3>
                         </div>
-                        <FactoryIcon></FactoryIcon>
-                        <h1>85</h1><h3> Rental Outlets</h3>
-                        <SubwayIcon></SubwayIcon>
-                            <h1>75</h1><h3> Repair Shops</h3>
+                        <div style={{display:"flex", flexDirection:"column", margin:"3%"}}>
+                            <FactoryIcon></FactoryIcon>
+                            <h3>85 Rental Outlets</h3>
+                        </div>
+                        <div style={{display:"flex", flexDirection:"column", margin:"3%"}}>
+                            <SubwayIcon></SubwayIcon>
+                            <h3>75 Repair Shops</h3>
+                        </div>
                     </div>
                 </div>
             </div>

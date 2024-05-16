@@ -6,22 +6,22 @@ import { TextareaAutosize } from '@mui/base/TextareaAutosize';
 import Button from '@mui/material/Button';
 import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
 import backgroundImage1 from '../Assets/backgroundImage1.jpeg';
-import contactBackground from '../Assets/contactBackground.jpeg'
+import EmailIcon from '@mui/icons-material/Email';
 
 const Contact = () => {
     return (
         <div>
-            <div style={{ backgroundImage: `url(${backgroundImage1})`,marginBottom:"5%"}}>
+            <div style={{ backgroundImage: `url(${backgroundImage1})`}}>
                 <div>
                     <Tabbar></Tabbar>
                 </div>
-                <div>
+                <div style={{padding:"5%"}}>
                     <h1>Team</h1>
                     <h3>Home/Contact</h3>
                 </div>
             </div>
-            <div style={{display:"flex",flexDirection:"row", backgroundImage: `url(${contactBackground})`,backgroundSize:"auto", backgroundRepeat:"no-repeat",  }}>
-                <div style={{display:"flex",flexDirection:"column", width:"50%", margin:"10%"}}>
+            <div style={{display:"flex",flexDirection:"row", marginTop:"10%", marginBottom:"10%"}}>
+                <div style={{display:"flex",flexDirection:"column", width:"50%", marginLeft:"20%"}}>
                     <h1> Need additional<br></br>
                         information?
                     </h1>
@@ -30,10 +30,10 @@ const Contact = () => {
                         research, development as well as a learning specialist. <br></br> 
                         Over 15 years of experience.
                     </h3>
-                    <h4> (123) 456 -789</h4>
-                    <h4> carrental@gmail.com</h4>
+                    <h4> <PhoneForwardedIcon style={{marginRight:"4%"}}></PhoneForwardedIcon>   (123) 456 -789</h4>
+                    <h4> <EmailIcon style={{marginRight:"4%"}}></EmailIcon>carrental@gmail.com</h4>
                 </div>
-                <div style={{display:"flex",flexDirection:"column", width:"50%", margin:"10%"}}    >
+                <div style={{display:"flex",flexDirection:"column", width:"50%", marginRight:"20%"}}    >
                     <h4>Full Name</h4><br></br>
                     <TextField id="outlined-basic" label="E.g: Joe Shmoe" variant="outlined" />
                     <h4>Email</h4><br></br>

@@ -5,7 +5,7 @@ import RepoPhone from '../Assets/RepoPhone.png'
 
 const DownloadApp = () => {
     return (
-        <div style={{display:"flex", flexDirection:"row", marginTop:"10%", backgroundColor:"rgb(247, 249, 250)"}}>
+        <div style={{display:"flex", flexDirection:"row", paddingTop:"5%", backgroundColor:"rgb(247, 249, 250)"}}>
             <div style={{display:"flex", flexDirection:"column", width:"50%", paddingLeft:"4%", paddingTop:"2%"}}>
                 <p>
                 <span style={{fontSize:"45px", fontWeight:"bold"}}>Download our app to get<br></br> most out of it<br></br></span>
