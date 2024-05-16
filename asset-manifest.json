@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.css": "/car-website/static/css/main.7afddee0.css",
-    "main.js": "/car-website/static/js/main.17001594.js",
+    "main.css": "/car-website/static/css/main.6358cd63.css",
+    "main.js": "/car-website/static/js/main.34197f09.js",
     "static/js/453.84baabe1.chunk.js": "/car-website/static/js/453.84baabe1.chunk.js",
-    "static/media/contactBackground.jpeg": "/car-website/static/media/contactBackground.a4c8676aebe971c26013.jpeg",
     "static/media/car3.png": "/car-website/static/media/car3.8968332b7901c6bb183c.png",
     "static/media/car6.png": "/car-website/static/media/car6.c78021e11cf230128bcc.png",
     "static/media/Allcars.png": "/car-website/static/media/Allcars.70cd75042bdf42515d92.png",
     "static/media/RepoPhone.png": "/car-website/static/media/RepoPhone.746e031e714a392c61af.png",
-    "static/media/inputBackground.jpeg": "/car-website/static/media/inputBackground.e95651a981b84f043512.jpeg",
     "static/media/backgroundImage1.jpeg": "/car-website/static/media/backgroundImage1.a4da8598512199abcc92.jpeg",
     "static/media/car2.png": "/car-website/static/media/car2.1982e958d19e04048c14.png",
     "static/media/car5.png": "/car-website/static/media/car5.a9aa68ef5eb5af1f342b.png",
@@ -35,12 +33,12 @@
     "static/media/GetOnGoogle.svg": "/car-website/static/media/GetOnGoogle.e6493904327fe3f9b89c7c75a4f3ae74.svg",
     "static/media/GetonApp.svg": "/car-website/static/media/GetonApp.35481c6295b0744dfcc00d35874fbdd8.svg",
     "index.html": "/car-website/index.html",
-    "main.7afddee0.css.map": "/car-website/static/css/main.7afddee0.css.map",
-    "main.17001594.js.map": "/car-website/static/js/main.17001594.js.map",
+    "main.6358cd63.css.map": "/car-website/static/css/main.6358cd63.css.map",
+    "main.34197f09.js.map": "/car-website/static/js/main.34197f09.js.map",
     "453.84baabe1.chunk.js.map": "/car-website/static/js/453.84baabe1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7afddee0.css",
-    "static/js/main.17001594.js"
+    "static/css/main.6358cd63.css",
+    "static/js/main.34197f09.js"
   ]
 }
