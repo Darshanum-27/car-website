@@ -1,22 +1,19 @@
 import React from 'react'
 import { Outlet, Link } from "react-router-dom";
 import carlogo from '../Assets/carlogo.png'
-import Button from '@mui/material/Button';
 
 const Tabbar = () => {
     return (
-        <div style={{marginTop:"20px"}}>
-                <div style={{display:"inline"}}>
-                    <img src={carlogo} alt='' style={{maxWidth:"9%", marginLeft:"5%"}}></img>
-                </div>
-                <div style={{display:"inline"}}>
-                    <Link to="/About" style={{color:"Black", textDecoration:"none", marginLeft:"20%",marginRight:"10px"}}><b>About</b></Link>
-                    <Link to="/ModelType" style={{color:"Black", textDecoration:"none", marginLeft:"15px"}}><b>Vehicle Model</b></Link>
-                    <Link to="/Testimonials" style={{color:"Black", textDecoration:"none", marginLeft:"15px"}}><b>Testimonials</b></Link>
-                    <Link to="/Team" style={{color:"Black", textDecoration:"none", marginLeft:"15px"}}><b>Our Team</b></Link>
-                    <Link to="/Contact" style={{color:"Black", textDecoration:"none", marginLeft:"15px"}}><b>Contact</b></Link>
-                    <Link to="/" style={{color:"Black", textDecoration:"none", marginLeft:"190px"}}><b>Sign In</b></Link>
-                    <Button variant="outlined" color="error" style={{marginLeft:"30px"}}>Error</Button>
+        <div style={{display:"flex", displayDirection:"column"}}>
+                <div style={{display:"flex", displayDirection:"column", paddingTop:"2%"}}>
+                    <img src={carlogo} alt='' style={{maxWidth:"10%", marginLeft:"5%"}}></img>
+                    <Link to="/About" style={{color:"Black", textDecoration:"none", marginLeft:"35vh", fontWeight:"bolder"}}>About</Link>
+                    <Link to="/ModelType" style={{color:"Black", textDecoration:"none", marginLeft:"2%", fontWeight:"bolder"}}>Vehicle Model</Link>
+                    <Link to="/Testimonials" style={{color:"Black", textDecoration:"none", marginLeft:"2%", fontWeight:"bolder"}}>Testimonials</Link>
+                    <Link to="/Team" style={{color:"Black", textDecoration:"none", marginLeft:"2%", fontWeight:"bolder"}}>Our Team</Link>
+                    <Link to="/Contact" style={{color:"Black", textDecoration:"none", marginLeft:"2%", fontWeight:"bolder"}}>Contact</Link>
+                    <Link to="/" style={{color:"Black", textDecoration:"none", marginLeft:"30vh", fontWeight:"bolder"}}>Sign In</Link>
+                    <Link to="/" style={{marginLeft:"3%", color:"orange", textDecoration:"none"}}>Register</Link>
                     <Outlet />
                 </div>
         </div>

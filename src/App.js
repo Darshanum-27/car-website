@@ -1,5 +1,6 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+//import { HashRouter as Router } from 'react-router-dom';
 import Layout from "./Components/Layout";
 import Home from './Components/Home';
 import About from './Components/About';
@@ -11,7 +12,7 @@ import ModelType from './Components/ModelType';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
               <Route exact path="/About" element={<About />} />
               <Route exact path="/Testimonials" element={<Testimonials />} />
@@ -22,7 +23,7 @@ function App() {
               <Route exact index element={<Layout />} />
             </Route>
           </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 }

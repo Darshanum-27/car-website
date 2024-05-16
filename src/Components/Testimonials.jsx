@@ -1,5 +1,6 @@
 import React from 'react'
 import PeopleReview from './PeopleReview'
+import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
 import Tabbar from './Tabbar'
 import Footer from './Footer'
 import backgroundImage1 from '../Assets/backgroundImage1.jpeg';
@@ -7,7 +8,7 @@ import backgroundImage1 from '../Assets/backgroundImage1.jpeg';
 const Testimonials = () => {
     return (
         <div>
-            <div style={{ backgroundImage: `url(${backgroundImage1})`, marginBottom:"5%"}}>
+            <div style={{ backgroundImage: `url(${backgroundImage1})`}}>
                 <div>
                     <Tabbar></Tabbar>
                 </div>
@@ -16,9 +17,12 @@ const Testimonials = () => {
                     <h3>Home/Testimonials</h3>
                 </div>
             </div>
-            <PeopleReview></PeopleReview>
             <div>
-                <p> Book a car by getting in touch with us <span>Book a car by getting in touch with us(123)456-7869</span></p>
+                <PeopleReview></PeopleReview>
+                <div style={{backgroundColor:"black"}}>
+                    <p style={{color:"white", fontSize:"30px", paddingTop:"5%", paddingBottom:"7%", textAlign:"center",
+                    fontWeight:"bold"}}> Book a car by getting in touch with us   <PhoneForwardedIcon /><span style={{color:"orange"}}>  (123)456-7869</span></p>
+                </div>
             </div>
             <div>
                 <Footer></Footer>
