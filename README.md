@@ -1,6 +1,6 @@
 # Simple Car Rental Website Frontend
 
-Focused on revising the concepts of CSS, React.
+Focused on revising the concepts of CSS, React. (Not Mobile View Optimized)
 
 ## Demo
 [LINK](https://darshanum-27.github.io/car-website/)
